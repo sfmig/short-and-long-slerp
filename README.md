@@ -1,4 +1,6 @@
 # Short and long SLERP interpolation
+[![View Short and long slerp  on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/88506-short-and-long-slerp)
+
 Computes the slerp interpolated path between two quaternions p0 and p1. Because any rotation can be represented by a quaternion p or its opposite -p, the rotation path between two quaternions may be the 'long way' or the 'short way'. This function allows to compute one or the other. If not specified, the short way is computed. Slerp interpolation guarantees a constant angular velocity rotation from the start quaternion to the end. If quaternions are too close to each other (almost parallel), linear interpolation is used instead.
 
 A demo is included that compares a simple rotation path computed with slerp, going the short way or the long way
@@ -18,3 +20,4 @@ For more information about short vs long slerp: https://en.wikipedia.org/wiki/Sl
 
 
 ![alt text](https://github.com/sfmig/short-and-long-slerp/blob/main/fex_cover_image.png?raw=true)
+
