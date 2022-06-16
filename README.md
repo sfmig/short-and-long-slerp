@@ -15,3 +15,6 @@ For more information about short vs long slerp: https://en.wikipedia.org/wiki/Sl
 
 ### Outputs
 * p_interp - Nx4 double, each row representing a normalised quaternion in the interpolated path. Start and end points are included: p_interp(1,:) = p0_unit; p_interp(end,:) = p1_unit;
+
+
+![alt text](https://github.com/sfmig/short-and-long-slerp/blob/main/fex_cover_image.png?raw=true)
